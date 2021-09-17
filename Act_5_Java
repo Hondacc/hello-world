@@ -1,0 +1,16 @@
+package Act5Java;
+
+public class Calculadora{
+        
+        public boolean Operadores(double a, double b){
+            
+            System.out.println("Suma: " + (a + b));
+            System.out.println("Resta: " + (a - b));
+            System.out.println("Multiplicación: " + (a * b));
+            System.out.println("División: " + (a / b));
+            System.out.println("Módulo: " + (a % b));
+            
+            return true;
+        }
+        
+}
